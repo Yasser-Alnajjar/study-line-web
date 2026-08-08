@@ -685,5 +685,26 @@
       "genericError": "Something went wrong. Please try again.",
       "missingSettings": "We couldn't load your settings. Try reloading the page."
     }
+  },
+  "settings": {
+    "data": {
+      "title": "Backup & data",
+      "subtitle": "Download a copy of everything you've stored, or permanently delete your account.",
+      "missingSettings": "We couldn't load your settings. Try reloading the page.",
+      "exportTitle": "Export your data",
+      "exportDescription": "Download a JSON file with every subject, lesson, note, homework, exam, and reminder in your account.",
+      "exportButton": "Download my data",
+      "exporting": "Preparing download...",
+      "exportSuccess": "Your download has started.",
+      "dangerZoneTitle": "Danger zone",
+      "deleteAccountDescription": "Permanently delete {email} and everything in it. This cannot be undone.",
+      "deleteAccountDescriptionNoEmail": "Permanently delete your account and everything in it. This cannot be undone.",
+      "deleteAccountButton": "Delete account",
+      "deleteConfirmTitle": "Delete your account?",
+      "deleteConfirmDescription": "This permanently deletes your account, subjects, lessons, notes, attachments, and every other record tied to it. This cannot be undone.",
+      "deleteConfirmButton": "Delete my account",
+      "deleteCancelButton": "Cancel",
+      "genericError": "Something went wrong. Please try again."
+    }
   }
 }

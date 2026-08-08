@@ -2,8 +2,10 @@ import { Actions } from "@/actions";
 import { SettingsDataView } from "../csr/SettingsDataView";
 
 export const SettingsData = async () => {
-  const { data } = await Actions.Settings.get();
-  const safeData = data ?? null;
+  const [{ data: settings }, { data: session }] = await Promise.all([
+    Actions.Settings.get(),
+    Actions.Auth.getSession(),
+  ]);
 
-  return <SettingsDataView data={safeData} />;
+  return <SettingsDataView data={settings ?? null} email={session?.email ?? null} />;
 };

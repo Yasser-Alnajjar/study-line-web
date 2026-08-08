@@ -685,5 +685,26 @@
       "genericError": "حدث خطأ ما. حاول مرة أخرى.",
       "missingSettings": "تعذر تحميل إعداداتك. جرّب إعادة تحميل الصفحة."
     }
+  },
+  "settings": {
+    "data": {
+      "title": "النسخ الاحتياطي والبيانات",
+      "subtitle": "نزّل نسخة من كل ما خزّنته، أو احذف حسابك نهائيًا.",
+      "missingSettings": "تعذر تحميل إعداداتك. جرّب إعادة تحميل الصفحة.",
+      "exportTitle": "تصدير بياناتك",
+      "exportDescription": "نزّل ملف JSON يحتوي كل مادة ودرس وملاحظة وواجب واختبار وتذكير في حسابك.",
+      "exportButton": "تنزيل بياناتي",
+      "exporting": "جارٍ تجهيز التنزيل...",
+      "exportSuccess": "بدأ التنزيل.",
+      "dangerZoneTitle": "منطقة الخطر",
+      "deleteAccountDescription": "حذف {email} وكل ما فيه نهائيًا. لا يمكن التراجع عن هذا الإجراء.",
+      "deleteAccountDescriptionNoEmail": "حذف حسابك وكل ما فيه نهائيًا. لا يمكن التراجع عن هذا الإجراء.",
+      "deleteAccountButton": "حذف الحساب",
+      "deleteConfirmTitle": "هل تريد حذف حسابك؟",
+      "deleteConfirmDescription": "سيؤدي هذا إلى حذف حسابك ومواده ودروسه وملاحظاته ومرفقاته وكل سجل آخر مرتبط به نهائيًا. لا يمكن التراجع عن هذا الإجراء.",
+      "deleteConfirmButton": "حذف حسابي",
+      "deleteCancelButton": "إلغاء",
+      "genericError": "حدث خطأ ما. حاول مرة أخرى."
+    }
   }
 }
